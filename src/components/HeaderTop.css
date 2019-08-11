@@ -1,0 +1,81 @@
+.header-top{
+    display: block;
+    padding-top: 10px;
+}
+
+.header-item{
+    display: block;
+}
+
+       
+#socialIcons{
+    width: 100%;
+    text-align: center;
+}
+
+
+#mobile{
+    width: 100%;
+    text-align: center;
+    color: rgb(47, 185, 185);
+}
+
+#email{
+    width: 100%;
+    text-align: center;
+    color: rgb(47, 185, 185);
+}
+
+
+.header-item label{
+    margin-top: -5px;
+    margin-left: 10px;
+   }
+
+   #socialIcons a{
+    padding-left: 10px;
+  }
+
+@media only screen and (min-width: 800px){
+    
+.header-top{
+    display: block;
+    padding-top: 10px;
+}
+
+.header-item{
+ display: inline;
+}
+
+.header-item label{
+    margin-top: -5px;
+    margin-left: 10px;
+   }
+
+#socialIcons{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+#socialIcons a{
+  padding-left: 10px;
+}
+
+
+#mobile{
+    width: 50%;
+    color: rgb(47, 185, 185);
+    float: center;
+    text-align: center;
+}
+
+
+#email{
+    width: 25%;
+    color: rgb(47, 185, 185);
+    text-align: center;
+    float: right;
+}
+    
+    }
