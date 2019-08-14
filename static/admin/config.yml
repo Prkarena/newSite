@@ -690,7 +690,7 @@ collections: # A list of collections the CMS should be able to edit
         label: 'Global Settings'
         name: 'global-settings'
         fields:
-          - { label: SiteTitle, name: siteTitle, widget: string }s
+          - { label: SiteTitle, name: siteTitle, widget: string }
           - {
               label: Site Description,
               name: siteDescription,
